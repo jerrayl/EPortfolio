@@ -1,0 +1,7 @@
+{
+  "mongoURI": "mongodb+srv://mehmet:1234@eportfolio.kpvsq.mongodb.net/ePortfolio?retryWrites=true&w=majority",
+  "jwtSecret": "secrettoken",
+  "expiresIn": 3600000,
+  "postPerPage": 10,
+  "templateAccount" : "Ys29XHZVyFdR5622zt2FMSFHTk03"
+}

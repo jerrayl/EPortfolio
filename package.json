@@ -1,0 +1,32 @@
+{
+  "name": "quaranteam",
+  "version": "1.0.0",
+  "description": "ePortfolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run buildserver && npm run buildclient && cd ./client && npm build",
+    "buildserver": "cd ./server && npm install",
+    "buildclient": "cd ./client && npm install",
+    "start": "cd ./server && npm run start",
+    "dev": "cd ./server && npm run dev",
+    "test": "cd ./server && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daltavida/Quaranteam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daltavida/Quaranteam/issues"
+  },
+  "homepage": "https://github.com/daltavida/Quaranteam#readme",
+  "dependencies": {
+    "@types/jest": "^26.0.15",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "form-data": "^3.0.0",
+    "supertest": "^6.0.1"
+  }
+}
